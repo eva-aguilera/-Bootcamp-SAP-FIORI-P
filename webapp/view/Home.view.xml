@@ -1,0 +1,10 @@
+<mvc:View controllerName="com.bootcamp.sapui5.freestylee.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <VBox id="vb" class="sapUiSmallMargin">
+		<Text id="text1" text="{i18n>textoi18n}"/>
+        <Button id="btn" type="Back" press="onPress" />
+	</VBox>
+    </Page>
+</mvc:View>

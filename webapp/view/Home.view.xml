@@ -5,6 +5,7 @@
     <VBox id="vb" class="sapUiSmallMargin">
 		<Text id="text1" text="{i18n>textoi18n}"/>
         <Button id="btn" type="Back" press="onPress" />
+        <Button id="btnBuscar" text="{i18n>textBuscar}" press="onPress" />
 	</VBox>
     </Page>
 </mvc:View>

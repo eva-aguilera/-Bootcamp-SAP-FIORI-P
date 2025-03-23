@@ -8,8 +8,8 @@ sap.ui.define([
         init: function (oNorthwindModel) {
             this._oNorthwindModel = oNorthwindModel;
         },
-        getDataProducts: async function () {
-            let oFilters = [];
+        getDataProducts: async function (oFilters) {
+            //let oFilters = [];
             return HomeService.readProducts(this._oNorthwindModel, oFilters);
         },
 

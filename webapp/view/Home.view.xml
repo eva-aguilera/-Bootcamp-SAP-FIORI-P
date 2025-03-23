@@ -16,11 +16,15 @@
                 id="text1"
                 text="{i18n>textoi18n}"
             />
+            <Toolbar id="toolbarID" >
+            <Input id="inputID" change="onChange"/>
             <Button
                 id="btnBuscar"
                 text="{i18n>textBuscar}"
+                
                 press="onPress"
             />
+            </Toolbar>
         </VBox>
 
         <VBox id="vTest2">

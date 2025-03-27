@@ -1,0 +1,7 @@
+{
+  "xsappname": "combootcampsapui5smartcontrols",
+  "tenant-mode": "dedicated",
+  "description": "Security profile of called application",
+  "scopes": [],
+  "role-templates": []
+}
